@@ -65,9 +65,9 @@ class Observation(object):
         self.mDriver.quit()
         
 if __name__ == '__main__':
-    obs = Observation(username = "eleganz@163.com", password = "Annackahlune")
-    #obs.gotoPeople("1678998673")
-    obs.gotoPage("http://e.weibo.com/chineserailways?ref=http%3A%2F%2Fs.weibo.com%2Fweibo%2F%2525E4%2525B8%2525AD%2525E5%25259B%2525BD%2525E9%252593%252581%2525E8%2525B7%2525AF%3Ftopnav%3D1%26wvr%3D5%26b%3D1")
+    obs = Observation(username = "", password = "")
+    #obs.gotoPeople("")
+    obs.gotoPage("")
     
     #pp = ParametersPlatform.ParametersPlatform(_path="C:\\Users\\el\\Desktop\\")
     dbops = DBOps.DBOps(parahost="localhost", parauser="root", 
